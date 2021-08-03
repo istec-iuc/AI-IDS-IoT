@@ -38,7 +38,8 @@ Artificial neural networks (ANN) are a system inspired by the working principle 
 
 ### -Binary Neural Network (BNN)
 Any layer has two types of inputs: the layer parameters, such as a weight matrix and biases, and incoming activations.  We can reduce the memory footprint of the model by binarizing parameters.  To get the efficiency of binary computations, the incoming activations need to be binary as well. This can be done by setting a input_quantizer.  Note that the output of a binarized layer is not binary. Instead the output is an integer, due to the summation that appears in most neural network layers.  When viewing binarization as an activation function just like ReLU, one may be inclined to binarize the outgoing activations rather than the incoming activations. However, if the network contains batch normalization layers or residual connections, this may result in unintentional non-binary operations. Therefore we have opted for an input_quantizer rather than an activation_quantizer[1]. When training a BNN, we constrain both the weights and the activations to either +1 or r 1. Those two values are very advantageous from a hardware perspective[2].
-            ![Ekran_Alıhjkjlkşkllşkşntısı-removebg-preview (1)](https://user-images.githubusercontent.com/59619952/128050899-2a62eb29-c73a-4f51-afb1-fda1745cd084.png)
+            
+  ![Ekran_Alıhjkjlkşkllşkşntısı-removebg-preview (1)](https://user-images.githubusercontent.com/59619952/128050899-2a62eb29-c73a-4f51-afb1-fda1745cd084.png)
 
 For more information about the BNN: [1]: https://docs.larq.dev/larq/
 
