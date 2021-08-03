@@ -1,5 +1,8 @@
 # Overview
-We can briefly define IoT as the internet of things. IoT represents smart devices that can connect to the internet, as it is briefly mentioned in the internet and in many articles. IDS is referred to as an intrusion detection system. In short, it is called systems that detect intrusions in network traffic. We can call it IoT-IDS for short in systems formed to detect attacks on IoT devices. Recently, we tried to test the success of the binary neural network (BNN) system, which is used in image datasets and is said to have a great advantage over other machine learning systems, in the IoT-IDS system using the dataset called IoTID20. We compared this with the artificial neural network (ANN) machine learning system.
+
+Internet usage is increasing rapidly nowadays. This rapid increase has many benefits that make our lives easier, but it has many problems as well as benefits. The most dangerous and important of these problems may be cyber threats. These threats can cause all kinds of harm to many institutions, states, communities or individuals. Intrusion detection systems can be the most useful of the measures that can be taken against these damages. Today, machine learning algorithms are the basis of most intrusion detection systems. The aim of this study is to test the binary neural network (BNN) algorithm, which is generally tried on image data, against the attacks on IoT devices, on the IoTID20 dataset, which is one of the most up-to-date datasets, and to compare the results of this test with the test results of the artificial neural network (ANN) algorithm in this dataset.
+
+We can briefly define IoT as the internet of things. IoT represents smart devices that can connect to the internet, as it is briefly mentioned in the internet and in many articles. IDS is referred to as an intrusion detection system. In short, it is called systems that detect intrusions in network traffic. We can call it IoT-IDS for short in systems formed to detect attacks on IoT devices.
 
 
 
@@ -46,8 +49,28 @@ For more information about the BNN: [1]: https://docs.larq.dev/larq/
 Source [2]: https://arxiv.org/abs/1602.02830
 
 
+# Thhe Process
+![image](https://user-images.githubusercontent.com/59619952/128087359-0c9c57ca-095c-46b1-b951-b1e46ac3cc6c.png)
+
+
+
 # Hardwares on HPC
 
 
 
 # Experiment Results
+
+
+# Requirement
+      1- jupyterlab
+      2- tensorflow
+      3- scikit-learn
+      4- pandas
+      5- numpy
+      6- keras
+      7- larg
+      8- matplotlib
+      9- itertools
+      10- imblearn
+      11- collections
+      12- csv
