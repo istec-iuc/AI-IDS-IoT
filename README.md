@@ -6,13 +6,21 @@ We can briefly define IoT as the internet of things. IoT represents smart device
 
 
 
+# Paper
+
 # Dataset (IoTID20)
 
 The exponential growth of the Internet of Things (IoT) devices provides a large attack surface for intruders to launch more destructive cyber-attacks. The intruder aimed to exhaust the target IoT network resources with malicious activity. New techniques and detection algorithms required a well-designed dataset for IoT networks. We proposed a new dataset, namely IoTID20, generated dataset from [1]. The new IoT botnet dataset has a more comprehensive network and flow-based features. The flow-based feature can be used to analyze and evaluate a flow-based intrusion detection system. Our proposed IoT botnet dataset will provide a reference point to identify anomalous activity across the IoT networks. The IoT Botnet dataset can be accessed from [2]. The new IoTID20 dataset will provide a foundation for the development of new intrusion detection techniques in IoT networks.
 
-![Ekran Alıdfghjklşintısı](https://user-images.githubusercontent.com/59619952/128051463-77aee342-7d21-4df0-865d-c8f546a70ad5.PNG)
 
-![image](https://user-images.githubusercontent.com/59619952/128054495-9bd612df-da5c-49f2-bcd8-ddaff23eee58.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/59619952/128051463-77aee342-7d21-4df0-865d-c8f546a70ad5.PNG"/>
+</p>
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/59619952/128054495-9bd612df-da5c-49f2-bcd8-ddaff23eee58.png"/>
+</p>
 
 
 For more information about the dataset: [1] https://ieee-dataport.org/open-access/iot-network-intrusion-dataset
@@ -49,9 +57,12 @@ For more information about the BNN: [1]: https://docs.larq.dev/larq/
 Source [2]: https://arxiv.org/abs/1602.02830
 
 
-# Thhe Process
-![image](https://user-images.githubusercontent.com/59619952/128087359-0c9c57ca-095c-46b1-b951-b1e46ac3cc6c.png)
+# The Process
 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/59619952/128087359-0c9c57ca-095c-46b1-b951-b1e46ac3cc6c.png"/>
+</p>
 
 
 # Hardwares on HPC
@@ -59,6 +70,9 @@ Source [2]: https://arxiv.org/abs/1602.02830
 
 
 # Experiment Results
+
+
+
 
 
 # Requirement
@@ -74,3 +88,19 @@ Source [2]: https://arxiv.org/abs/1602.02830
       10- imblearn
       11- collections
       12- csv
+      
+      
+# Explanation of Files
+ * 1- Data_Cleaning-Mapping.ipynb           -->  Cleaning and mapping the raw data files.
+ * 2- Graphic.ipynb                         -->  Visualization of data.
+ * 3- Over_Sampling_Smote.ipynb             -->  
+ * 4- ANN.ipynb                             -->  Build model with ANN.
+ * 5- ANN with feature selection.ipynb      -->  Build model with ANN and Variance method.
+ * 6- BNN.ipynb                             -->  Build model with BNN.
+ * 7- BNN with feature selection.ipynb      -->  Build model with BNN and Variance method. 
+
+
+
+
+
+
