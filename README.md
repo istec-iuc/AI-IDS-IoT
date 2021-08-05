@@ -100,7 +100,9 @@ Source [2]: https://arxiv.org/abs/1602.02830
  * 7- BNN with feature selection.ipynb      -->  Build model with BNN and Variance method. 
 
 
-
+# Contact for Questions and Suggestions
+* e.kurt2552@gmail.com
+* havvabzmr@gmail.com
 
 
 
