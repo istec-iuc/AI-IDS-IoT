@@ -82,7 +82,7 @@ Source [2]: https://arxiv.org/abs/1602.02830
       4- pandas
       5- numpy
       6- keras
-      7- larg
+      7- larq
       8- matplotlib
       9- itertools
       10- imblearn
